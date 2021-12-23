@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Reusablecomponent.Listener"/>
+
+    </listeners>
+
+    <test name="Gmail Login">
+        <classes>
+
+            <class name="testscript.LoginTest"/>
+            <!--<class name="testscript.Sendtest"/>-->
+            <class name="testscript.Homepagetest"/>
+            <class name="testscript.Homepage1test"/>
+            <class name="testscript.Drive_Test"/>
+            <class name="testscript.FormTest"/>
+
+            </classes>
+
+        </test>
+    </suite>
+

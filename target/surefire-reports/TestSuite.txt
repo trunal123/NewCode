@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 31.119 sec <<< FAILURE!
+Testcase2_Translate(testscript.Drive_Test)  Time elapsed: 0.087 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at webpages.Drive.translate(Drive.java:51)
+	at testscript.Drive_Test.Testcase2_Translate(Drive_Test.java:18)
+
+Testcase1_SubmitForm(testscript.FormTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at webpages.Form.submitform(Form.java:12)
+	at testscript.FormTest.Testcase1_SubmitForm(FormTest.java:13)
+
